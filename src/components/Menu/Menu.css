@@ -1,0 +1,38 @@
+.sidebar {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(2, 2, 2, 0.95);
+  width: min-content;
+
+  color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  z-index: 20;
+}
+
+.sidebar-options {
+  list-style: none;
+}
+
+.sidebar-options li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-options .active {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.sidebar-options li i {
+  margin: auto;
+}
+
+.sidebar-options li span {
+  font-size: 0.88rem;
+  font-weight: 500;
+}

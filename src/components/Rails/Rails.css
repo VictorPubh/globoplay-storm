@@ -1,0 +1,34 @@
+.rails-container {
+  background-color: rgba(2, 2, 2, 0.95);
+  width: 100%;
+  height: 100vh;
+}
+
+.rails-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  height: 100vh;
+}
+
+.no-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.no-search h2 {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.no-results {
+  height: 32vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+}

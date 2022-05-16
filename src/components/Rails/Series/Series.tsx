@@ -75,8 +75,7 @@ export const SeriesRails: React.FC<{ onRails: boolean }> = ({ onRails }) => {
             <div
               className={`serie-item ${
                 onRails && seriesRailsFocus === i && railsFocus === 1 && 'active'
-              }`}
-            >
+              }`}>
               <img src={`https://image.tmdb.org/t/p/w500${serie.backdrop_path}`} alt={serie.name} />
               <div className="serie-details">
                 <span>{limitString(serie.original_name, 25)}</span>

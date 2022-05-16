@@ -75,8 +75,7 @@ export const AppProvider = ({ children }: IAppContextProps) => {
 
         lastKeyEventCode,
         setLastKeyEventCode
-      }}
-    >
+      }}>
       {children}
     </AppContext.Provider>
   );

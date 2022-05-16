@@ -78,8 +78,7 @@ export const TitlesRails: React.FC<{ onRails: boolean }> = ({ onRails }) => {
             <div
               className={`post-movie ${
                 onRails && railsFocus === 0 && titlesRailsFocus === i && 'active'
-              }`}
-            >
+              }`}>
               <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
             </div>
           ))}

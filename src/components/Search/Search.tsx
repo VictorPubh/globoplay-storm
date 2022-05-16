@@ -19,8 +19,7 @@ export const Search = () => {
           <div className="keyboard-grid">
             {row.map((key, k) => (
               <button
-                className={`${searchIsOpen && keyboardH === k && keyboardV === r && 'active'}`}
-              >
+                className={`${searchIsOpen && keyboardH === k && keyboardV === r && 'active'}`}>
                 {key.icon && <i className={`gg-${key.icon}`} />}
                 {key.label}
               </button>
